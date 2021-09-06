@@ -28,7 +28,7 @@
       Top = 1
       Width = 424
       Height = 597
-      ActivePage = TabSheet1
+      ActivePage = TestPeriod
       Align = alClient
       MultiLine = True
       TabOrder = 0
@@ -4004,9 +4004,9 @@
           object Label7: TLabel
             AlignWithMargins = True
             Left = 11
-            Top = 103
+            Top = 97
             Width = 374
-            Height = 24
+            Height = 22
             Margins.Left = 5
             Margins.Top = 5
             Margins.Right = 5
@@ -4014,15 +4014,21 @@
             Align = alTop
             Alignment = taCenter
             Caption = #1055#1088#1080#1085#1080#1084#1072#1077#1090#1077' '#1079#1074#1086#1085#1082#1080' '#1087#1086' '#1088#1072#1089#1089#1099#1083#1082#1072#1084'?'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -19
+            Font.Name = 'Times New Roman'
+            Font.Style = [fsBold, fsItalic]
+            ParentFont = False
             WordWrap = True
-            ExplicitWidth = 333
+            ExplicitWidth = 306
           end
           object Label15: TLabel
             AlignWithMargins = True
             Left = 11
             Top = 11
             Width = 374
-            Height = 48
+            Height = 44
             Margins.Left = 5
             Margins.Top = 5
             Margins.Right = 5
@@ -4030,15 +4036,21 @@
             Align = alTop
             Alignment = taCenter
             Caption = #1044#1072#1085#1085#1099#1081' '#1080#1085#1089#1090#1088#1091#1084#1077#1085#1090' '#1087#1086#1084#1086#1075#1072#1077#1090' '#1042#1072#1084' '#1074' '#1088#1072#1073#1086#1090#1077'?  '
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -19
+            Font.Name = 'Times New Roman'
+            Font.Style = [fsBold, fsItalic]
+            ParentFont = False
             WordWrap = True
-            ExplicitWidth = 357
+            ExplicitWidth = 332
           end
           object Label16: TLabel
             AlignWithMargins = True
             Left = 11
-            Top = 69
+            Top = 65
             Width = 374
-            Height = 24
+            Height = 22
             Margins.Left = 5
             Margins.Top = 5
             Margins.Right = 5
@@ -4046,8 +4058,14 @@
             Align = alTop
             Alignment = taCenter
             Caption = #1055#1088#1086#1093#1086#1076#1080#1090' '#1090#1086#1074#1072#1088#1086#1086#1073#1086#1088#1086#1090'?'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -19
+            Font.Name = 'Times New Roman'
+            Font.Style = [fsBold, fsItalic]
+            ParentFont = False
             WordWrap = True
-            ExplicitWidth = 245
+            ExplicitWidth = 228
           end
         end
         object Panel21: TPanel
