@@ -28,7 +28,7 @@
       Top = 1
       Width = 424
       Height = 597
-      ActivePage = TestPeriod
+      ActivePage = TabSheet5
       Align = alClient
       MultiLine = True
       TabOrder = 0
@@ -92,7 +92,7 @@
             Top = 159
             Width = 384
             Height = 337
-            ActivePage = ImageSheet
+            ActivePage = TextSheet
             Align = alClient
             TabOrder = 2
             object TextSheet: TTabSheet
