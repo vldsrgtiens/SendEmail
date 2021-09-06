@@ -4129,9 +4129,9 @@
             Caption = #1054#1090#1073#1083#1072#1075#1086#1076#1072#1088#1080#1090#1100' '#1088#1072#1079#1088#1072#1073#1086#1090#1095#1080#1082#1072' '#1087#1088#1086#1075#1088#1072#1084#1084#1099
             Font.Charset = DEFAULT_CHARSET
             Font.Color = clGreen
-            Font.Height = -13
+            Font.Height = -16
             Font.Name = 'Tahoma'
-            Font.Style = [fsBold]
+            Font.Style = []
             ParentFont = False
             TabOrder = 0
             WordWrap = True
