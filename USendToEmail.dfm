@@ -4004,9 +4004,9 @@
           object Label7: TLabel
             AlignWithMargins = True
             Left = 11
-            Top = 97
+            Top = 94
             Width = 374
-            Height = 22
+            Height = 21
             Margins.Left = 5
             Margins.Top = 5
             Margins.Right = 5
@@ -4018,17 +4018,18 @@
             Font.Color = clWindowText
             Font.Height = -19
             Font.Name = 'Times New Roman'
-            Font.Style = [fsBold, fsItalic]
+            Font.Style = [fsItalic]
             ParentFont = False
             WordWrap = True
-            ExplicitWidth = 306
+            ExplicitTop = 97
+            ExplicitWidth = 289
           end
           object Label15: TLabel
             AlignWithMargins = True
             Left = 11
             Top = 11
             Width = 374
-            Height = 44
+            Height = 42
             Margins.Left = 5
             Margins.Top = 5
             Margins.Right = 5
@@ -4040,17 +4041,17 @@
             Font.Color = clWindowText
             Font.Height = -19
             Font.Name = 'Times New Roman'
-            Font.Style = [fsBold, fsItalic]
+            Font.Style = [fsItalic]
             ParentFont = False
             WordWrap = True
-            ExplicitWidth = 332
+            ExplicitWidth = 310
           end
           object Label16: TLabel
             AlignWithMargins = True
             Left = 11
-            Top = 65
+            Top = 63
             Width = 374
-            Height = 22
+            Height = 21
             Margins.Left = 5
             Margins.Top = 5
             Margins.Right = 5
@@ -4062,17 +4063,18 @@
             Font.Color = clWindowText
             Font.Height = -19
             Font.Name = 'Times New Roman'
-            Font.Style = [fsBold, fsItalic]
+            Font.Style = [fsItalic]
             ParentFont = False
             WordWrap = True
-            ExplicitWidth = 228
+            ExplicitTop = 65
+            ExplicitWidth = 219
           end
         end
         object Panel21: TPanel
           Left = 0
-          Top = 501
+          Top = 520
           Width = 396
-          Height = 88
+          Height = 69
           Align = alBottom
           Padding.Left = 10
           Padding.Top = 10
@@ -4083,7 +4085,7 @@
             Left = 11
             Top = 11
             Width = 374
-            Height = 66
+            Height = 47
             Margins.Left = 10
             Margins.Top = 10
             Margins.Right = 10
@@ -4099,13 +4101,15 @@
             TabOrder = 0
             WordWrap = True
             OnClick = BitBtn14Click
+            ExplicitTop = 32
+            ExplicitHeight = 45
           end
         end
         object Panel22: TPanel
           Left = 0
           Top = 145
           Width = 396
-          Height = 88
+          Height = 66
           Align = alTop
           Padding.Left = 10
           Padding.Top = 10
@@ -4116,7 +4120,7 @@
             Left = 11
             Top = 11
             Width = 374
-            Height = 66
+            Height = 44
             Margins.Left = 10
             Margins.Top = 10
             Margins.Right = 10
@@ -4125,28 +4129,32 @@
             Caption = #1054#1090#1073#1083#1072#1075#1086#1076#1072#1088#1080#1090#1100' '#1088#1072#1079#1088#1072#1073#1086#1090#1095#1080#1082#1072' '#1087#1088#1086#1075#1088#1072#1084#1084#1099
             Font.Charset = DEFAULT_CHARSET
             Font.Color = clGreen
-            Font.Height = -16
+            Font.Height = -13
             Font.Name = 'Tahoma'
             Font.Style = [fsBold]
             ParentFont = False
             TabOrder = 0
             WordWrap = True
             OnClick = BitBtn15Click
+            ExplicitTop = 32
+            ExplicitHeight = 45
           end
         end
         object Panel19: TPanel
           Left = 0
-          Top = 233
+          Top = 211
           Width = 396
-          Height = 268
+          Height = 309
           Align = alClient
           TabOrder = 3
           Visible = False
+          ExplicitTop = 233
+          ExplicitHeight = 268
           object Memo3: TMemo
             Left = 1
             Top = 1
             Width = 394
-            Height = 266
+            Height = 307
             Align = alClient
             Alignment = taCenter
             Font.Charset = DEFAULT_CHARSET
@@ -4170,6 +4178,7 @@
               #1041#1086#1083#1100#1096#1080#1093' '#1090#1086#1074#1072#1088#1086#1086#1073#1086#1088#1086#1090#1086#1074'!!!')
             ParentFont = False
             TabOrder = 0
+            ExplicitHeight = 266
           end
         end
       end
