@@ -2,20 +2,20 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>1899.12.30 00:00:00.000.405,=C:\Delphi\SendToEmail\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.444,C:\Delphi\SendToEmail\DataModule.pas=C:\Delphi\SendToEmail\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.337,=C:\Delphi\SendToEmail\AcroPDFLib_TLB.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.456,C:\Delphi\SendToEmail\AcroPDFLib_TLB.pas=</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.462,C:\Delphi\SendToEmail\DataModule.dfm=C:\Delphi\SendToEmail\UDm.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.541,C:\Delphi\SendToEmail\SendToEmail.dproj=C:\Users\Home-Comp\Documents\Embarcadero\Studio\Projects\Project11.dproj</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.462,C:\Delphi\SendToEmail\DataModule.pas=C:\Delphi\SendToEmail\UDm.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.444,C:\Delphi\SendToEmail\DataModule.dfm=C:\Delphi\SendToEmail\Unit1.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.080,=C:\Users\Home-Comp\Documents\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.413,=C:\Users\Home-Comp\Documents\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.216,C:\Delphi\SendToEmail\USendToEmail.pas=C:\Users\Home-Comp\Documents\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.698,=C:\Users\Home-Comp\Documents\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.444,C:\Delphi\SendToEmail\Unit1.pas=C:\Delphi\SendToEmail\DataModule.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.786,C:\Users\Home-Comp\Documents\Embarcadero\Studio\19.0\Imports\AcroPDFLib_TLB.pas=</Transaction>
     <Transaction>1899.12.30 00:00:00.000.667,=C:\Users\Home-Comp\Documents\Embarcadero\Studio\19.0\Imports\AcroPDFLib_TLB.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.444,C:\Delphi\SendToEmail\Unit1.dfm=C:\Delphi\SendToEmail\DataModule.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.216,C:\Users\Home-Comp\Documents\Embarcadero\Studio\Projects\Unit9.dfm=C:\Delphi\SendToEmail\USendToEmail.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.337,=C:\Delphi\SendToEmail\AcroPDFLib_TLB.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.456,C:\Delphi\SendToEmail\AcroPDFLib_TLB.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.541,C:\Users\Home-Comp\Documents\Embarcadero\Studio\Projects\Project11.dproj=C:\Delphi\SendToEmail\SendToEmail.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.080,=C:\Users\Home-Comp\Documents\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.462,C:\Delphi\SendToEmail\UDm.dfm=C:\Delphi\SendToEmail\DataModule.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.462,C:\Delphi\SendToEmail\UDm.pas=C:\Delphi\SendToEmail\DataModule.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.698,=C:\Users\Home-Comp\Documents\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.885,=C:\Users\Home-Comp\Documents\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.216,C:\Delphi\SendToEmail\USendToEmail.dfm=C:\Users\Home-Comp\Documents\Embarcadero\Studio\Projects\Unit9.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.413,=C:\Users\Home-Comp\Documents\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.216,C:\Users\Home-Comp\Documents\Embarcadero\Studio\Projects\Unit9.pas=C:\Delphi\SendToEmail\USendToEmail.pas</Transaction>
   </Transactions>
 </BorlandProject>
