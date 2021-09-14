@@ -1491,7 +1491,7 @@ PathExe:=ExtractFilePath(Application.ExeName);
 PathImages:=PathExe+'\Images\';
 PathAcnt:=TPath.GetCachePath;
 
-Log(tError,DateTimeToStr(Now)+ ' CachePath '+PathAcnt);
+Log(tError,DateTimeToStr(Now)+ ' PathAcnt: '+PathAcnt);
 
 
 MyEMailAddress.StyleElements := [];
@@ -1499,7 +1499,7 @@ MyEMailAddress.Font.Color:=clRed;
 
 HardwareInfo;
 
-if FileExists(PathAcnt+'\acnt64.dll') then
+if not FileExists(PathAcnt+'\acnt64.dll') then //убрать NOT  для проверки аккоунта
  begin
   if CheckReg then
    begin
@@ -1530,7 +1530,7 @@ else
  begin
   //SaveMac;  проверить аккаунт
   Registered:=true;
-  StatusBar1.Panels[2].Text:='Registered';
+  StatusBar1.Panels[2].Text:='Unregistered';
  end;
 
  Panel18.Visible:=false;
@@ -2175,7 +2175,7 @@ begin
         begin
          PlainTextContentTransfer:='html';
          PlainTextCharset:='windows-1251';
-         HTML.Text:='<html><body> <br><br> <img src="cid:'+ExtractFileName(SendImageFullPath)+'" height=50% width=50% >  </body></html>';
+         HTML.Text:='<html><body> <br><br> <img src="cid:'+ExtractFileName(SendImageFullPath)+'" height=100% width=100% >  </body></html>';
          HTMLCharset:='windows-1251';
          cid:=ExtractFileName(SendImageFullPath);
          HtmlFiles.Add(SendImageFullPath,cid);
