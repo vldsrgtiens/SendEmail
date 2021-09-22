@@ -222,10 +222,6 @@
             object ImageSheet: TTabSheet
               Caption = #1054#1090#1087#1088#1072#1074#1080#1090#1100' '#1082#1072#1088#1090#1080#1085#1082#1091
               ImageIndex = 1
-              ExplicitLeft = 0
-              ExplicitTop = 0
-              ExplicitWidth = 0
-              ExplicitHeight = 0
               object GroupBox7: TGroupBox
                 Left = 0
                 Top = 0
@@ -244,7 +240,7 @@
                   AlignWithMargins = True
                   Left = 5
                   Top = 20
-                  Width = 102
+                  Width = 366
                   Height = 16
                   Margins.Top = 5
                   Margins.Bottom = 5
@@ -257,12 +253,13 @@
                   Font.Name = 'Tahoma'
                   Font.Style = [fsItalic]
                   ParentFont = False
+                  ExplicitWidth = 102
                 end
                 object Label14: TLabel
                   AlignWithMargins = True
                   Left = 5
                   Top = 126
-                  Width = 79
+                  Width = 366
                   Height = 16
                   Margins.Top = 10
                   Margins.Bottom = 5
@@ -275,12 +272,13 @@
                   Font.Name = 'Tahoma'
                   Font.Style = [fsItalic]
                   ParentFont = False
+                  ExplicitWidth = 79
                 end
                 object Label13: TLabel
                   AlignWithMargins = True
                   Left = 5
                   Top = 71
-                  Width = 76
+                  Width = 366
                   Height = 16
                   Margins.Bottom = 5
                   Align = alTop
@@ -292,6 +290,7 @@
                   Font.Name = 'Tahoma'
                   Font.Style = [fsItalic]
                   ParentFont = False
+                  ExplicitWidth = 76
                 end
                 object ImageSend: TImage
                   Left = 2
@@ -3254,10 +3253,6 @@
       object Settings: TTabSheet
         Caption = #1053#1072#1089#1090#1088#1086#1081#1082#1080
         ImageIndex = 3
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         object Panel7: TPanel
           AlignWithMargins = True
           Left = 3
@@ -3311,11 +3306,13 @@
             AlignWithMargins = True
             Left = 106
             Top = 3
-            Width = 175
-            Height = 13
+            Width = 277
+            Height = 31
             Align = alClient
             Caption = #1050#1086#1083#1080#1095#1077#1089#1090#1074#1086' Email '#1086#1090#1087#1088#1072#1074#1086#1082' '#1074' '#1076#1077#1085#1100
             Layout = tlCenter
+            ExplicitWidth = 175
+            ExplicitHeight = 13
           end
           object Panel12: TPanel
             AlignWithMargins = True
@@ -3402,11 +3399,12 @@
             Left = 10
             Top = 3
             Width = 36
-            Height = 13
+            Height = 26
             Margins.Left = 10
             Align = alLeft
             Caption = #1087#1072#1088#1086#1083#1100
             Layout = tlCenter
+            ExplicitHeight = 13
           end
           object Edit1: TEdit
             AlignWithMargins = True
@@ -3494,10 +3492,6 @@
       end
       object TabSheet1: TTabSheet
         Caption = #1057#1082#1072#1085' '#1092#1072#1081#1083#1086#1074
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         object GroupBox3: TGroupBox
           AlignWithMargins = True
           Left = 10
@@ -3616,19 +3610,21 @@
               AlignWithMargins = True
               Left = 3
               Top = 3
-              Width = 83
+              Width = 356
               Height = 13
               Align = alTop
               Caption = 'LabelProgressFile'
+              ExplicitWidth = 83
             end
             object LabelProgressTotal: TLabel
               AlignWithMargins = True
               Left = 3
               Top = 45
-              Width = 91
+              Width = 356
               Height = 13
               Align = alTop
               Caption = 'LabelProgressTotal'
+              ExplicitWidth = 91
             end
             object ProgressBarFile: TProgressBar
               AlignWithMargins = True
@@ -3704,10 +3700,6 @@
       object TabSheet2: TTabSheet
         Caption = 'LogInfo'
         ImageIndex = 1
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         object BitBtn3: TBitBtn
           Left = 0
           Top = 564
@@ -3760,10 +3752,6 @@
       object TabSheet3: TTabSheet
         Caption = 'PDF'
         ImageIndex = 2
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         object MemoPDF: TMemo
           Left = 0
           Top = 541
@@ -3777,10 +3765,6 @@
       object SendPhones: TTabSheet
         Caption = #1054#1090#1087#1088#1072#1074#1080#1090#1100' '#1041#1044' '#1090#1077#1083#1077#1092#1086#1085#1086#1074
         ImageIndex = 6
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         object Panel17: TPanel
           Left = 0
           Top = 0
@@ -3792,10 +3776,11 @@
             AlignWithMargins = True
             Left = 4
             Top = 4
-            Width = 240
+            Width = 388
             Height = 13
             Align = alTop
             Caption = #1042#1074#1077#1076#1080#1090#1077' Email '#1082#1091#1076#1072' '#1086#1090#1087#1088#1072#1074#1080#1090#1100' '#1041#1072#1079#1091' '#1090#1077#1083#1077#1092#1086#1085#1086#1074
+            ExplicitWidth = 240
           end
           object Edit3: TEdit
             AlignWithMargins = True
@@ -3839,11 +3824,12 @@
             AlignWithMargins = True
             Left = 4
             Top = 4
-            Width = 175
+            Width = 388
             Height = 13
             Align = alTop
             Alignment = taCenter
             Caption = #1092#1086#1088#1084#1080#1088#1086#1074#1072#1085#1080#1077' '#1073#1072#1079#1099' '#1076#1083#1103' '#1086#1090#1087#1088#1072#1074#1082#1080
+            ExplicitWidth = 175
           end
           object ProgressBar1: TProgressBar
             AlignWithMargins = True
@@ -3868,10 +3854,6 @@
       object TabSheet4: TTabSheet
         Caption = 'TabSheet4'
         ImageIndex = 4
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         object SpeedButton1: TSpeedButton
           Left = 224
           Top = 440
@@ -3998,10 +3980,6 @@
       object TestPeriod: TTabSheet
         Caption = 'TestPeriod'
         ImageIndex = 7
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         object Panel11: TPanel
           Left = 0
           Top = 0
@@ -4027,7 +4005,7 @@
             AlignWithMargins = True
             Left = 11
             Top = 94
-            Width = 289
+            Width = 374
             Height = 21
             Margins.Left = 5
             Margins.Top = 5
@@ -4043,12 +4021,13 @@
             Font.Style = [fsItalic]
             ParentFont = False
             WordWrap = True
+            ExplicitWidth = 289
           end
           object Label15: TLabel
             AlignWithMargins = True
             Left = 11
             Top = 11
-            Width = 310
+            Width = 374
             Height = 42
             Margins.Left = 5
             Margins.Top = 5
@@ -4064,12 +4043,13 @@
             Font.Style = [fsItalic]
             ParentFont = False
             WordWrap = True
+            ExplicitWidth = 310
           end
           object Label16: TLabel
             AlignWithMargins = True
             Left = 11
             Top = 63
-            Width = 219
+            Width = 374
             Height = 21
             Margins.Left = 5
             Margins.Top = 5
@@ -4085,6 +4065,7 @@
             Font.Style = [fsItalic]
             ParentFont = False
             WordWrap = True
+            ExplicitWidth = 219
           end
         end
         object Panel21: TPanel
@@ -4118,8 +4099,6 @@
             TabOrder = 0
             WordWrap = True
             OnClick = BitBtn14Click
-            ExplicitTop = 32
-            ExplicitHeight = 45
           end
         end
         object Panel22: TPanel
@@ -4153,8 +4132,6 @@
             TabOrder = 0
             WordWrap = True
             OnClick = BitBtn15Click
-            ExplicitTop = 32
-            ExplicitHeight = 45
           end
         end
         object Panel19: TPanel
@@ -4165,8 +4142,6 @@
           Align = alClient
           TabOrder = 3
           Visible = False
-          ExplicitTop = 233
-          ExplicitHeight = 268
           object Memo3: TMemo
             Left = 1
             Top = 1
